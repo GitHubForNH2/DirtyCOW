@@ -31,7 +31,6 @@ void* procselfmemThread(void *arg) {
   printf("procselfmem %d\n", c);
 }	    
 
-
 int main(int argc, char *argv[]) {
   if (argc < 3)
     return 1;
